@@ -3,5 +3,7 @@
 !.sh/hook
 !.sh/hook/shenv.post
 !.sh/hook/shenv.post/virtualenv
+!.sh/hook/zshrc.pre
+!.sh/hook/zshrc.pre/virtualenv
 !.gitignore.d
 !.gitignore.d/python-config
