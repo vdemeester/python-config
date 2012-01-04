@@ -1,0 +1,18 @@
+# Filename:     .sh/hook/shenv.post/virtualenv
+# Author:       Vincent Demeester
+# License:      This file is licensed under the GPL v2
+# --------------------------------------------------------------------------- #
+# This file initialize VIRTUALENV{,WRAPPER} variables at shenv
+# --------------------------------------------------------------------------- #
+command -v virtualenv >/dev/null && {
+    export WORKON_HOME=$HOME/srv/virtualenv
+    export PIP_VIRTUALENV_BASE=$WORKON_HOME
+    export PIP_RESPECT_VIRTUALENV=true  # Use virtualenv if present
+    # export PIP_REQUIRE_VIRTUALENV=true # Require virtualenv to work
+
+    if test -f /etc/bash_completion.d/virtualenvwrapper; then
+        source /etc/bash_completion.d/virtualenvwrapper
+    fi
+
+}
+# vim:filetype=sh foldmethod=marker autoindent expandtab shiftwidth=4
