@@ -1,0 +1,7 @@
+*
+!.sh/
+!.sh/hook
+!.sh/hook/shenv.post
+!.sh/hook/shenv.post/virtualenv
+!.gitignore.d
+!.gitignore.d/python-config
