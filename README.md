@@ -8,4 +8,6 @@
        \ \_\     /\___/                             
         \/_/     \/__/                              
 
-TODO
+This repository currently contains only virtualenv sh (bash,zsh) configuration
+(for setup and prompt). To understand the meaning of `.sh/hook/…` you should
+take a look at [sh-config](https://github.com/vdemeester/sh-config.git)
