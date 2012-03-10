@@ -5,5 +5,17 @@
 !.sh/hook/shenv.post/virtualenv
 !.sh/hook/zshrc.pre
 !.sh/hook/zshrc.pre/virtualenv
+!srv
+!srv/virtualenv
+!srv/virtualenv/
+!srv/virtualenv/initialize
+!srv/virtualenv/postactivate
+!srv/virtualenv/postmkvirtualenv
+!srv/virtualenv/preactivate
+!srv/virtualenv/premkvirtualenv
+!srv/virtualenv/postdeactivate
+!srv/virtualenv/postrmvirtualenv
+!srv/virtualenv/predeactivate
+!srv/virtualenv/prermvirtualenv
 !.gitignore.d
 !.gitignore.d/python-config
