@@ -10,6 +10,9 @@ command -v virtualenv >/dev/null && {
     export PIP_RESPECT_VIRTUALENV=true  # Use virtualenv if present
     # export PIP_REQUIRE_VIRTUALENV=true # Require virtualenv to work
 
+    if test -f /usr/bin/virtualenvwrapper.sh; then
+        source /usr/bin/virtualenvwrapper.sh
+    fi
     if test -f /etc/bash_completion.d/virtualenvwrapper; then
         source /etc/bash_completion.d/virtualenvwrapper
     fi
