@@ -6,7 +6,7 @@
 # --------------------------------------------------------------------------- #
 command -v virtualenv >/dev/null && {
 
-    _vde_add_rprompt_virtualenv () {
+    _vde_add_lprompt_virtualenv () {
         print -n '${VIRTUAL_ENV:+${BG_PR_BLUE}${PR_YELLOW} ϸ ${PR_WHITE}${VIRTUAL_ENV##*/}}'
     }
 }
