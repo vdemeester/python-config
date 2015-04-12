@@ -17,5 +17,8 @@
 !srv/virtualenv/postrmvirtualenv
 !srv/virtualenv/predeactivate
 !srv/virtualenv/prermvirtualenv
+!.emacs.d
+!.emacs.d/provided
+!.emacs.d/provided/python-config.org
 !.gitignore.d
 !.gitignore.d/python-config
