@@ -1,0 +1,9 @@
+* Python Emacs configuration
+
+  Here are the Python configurations for emacs. For now, there is
+  nothing to see here =:D=.
+
+
+  #+BEGIN_SRC emacs-lisp
+    (message "Python configuration")
+  #+END_SRC
