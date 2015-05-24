@@ -1,9 +1,15 @@
 * Python Emacs configuration
 
-  Here are the Python configurations for emacs. For now, there is
-  nothing to see here =:D=.
+  Here are the Python configurations for emacs. We are going to use
+  [[https://github.com/jorgenschaefer/elpy][elpy]] for python as it seems to be a straightforward and pretty
+  complete setup :).
 
 
   #+BEGIN_SRC emacs-lisp
-    (message "Python configuration")
+    (use-package elpy
+      :ensure t
+      :init
+      (progn
+        (elpy-enable)))
   #+END_SRC
+
